@@ -1,0 +1,91 @@
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.main-container {
+  display: flex;
+  padding: 10px;
+  max-width: 90%;
+  margin: 0px auto;
+}
+.btn {
+  background: purple;
+  color: white;
+  display: inline-block;
+  text-align: center;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  margin: 30px 0px;
+}
+.student-item {
+  background: white;
+  color: black;
+  border-radius: 10px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  display: flex;
+
+  justify-content: space-between;
+  padding: 30px;
+  margin: 10px;
+}
+.student-details {
+  display: flex;
+  flex-direction: column;
+  margin-right: 10px;
+  justify-content: space-around;
+  color: #474747;
+}
+.student-image {
+  width: 150px;
+  height: 150px;
+  background: crimson;
+  border-radius: 100%;
+  object-fit: cover;
+}
+.student-details .name {
+  font-size: 1.4rem;
+  color: #1e1e1e;
+}
+.enrolled-student-container {
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  /* overflow-y: auto; */
+  /* height: 100%; */
+}
+.form-field {
+  display: flex;
+  flex-direction: column;
+}
+.form-field input {
+  margin: 5px 0px;
+}
+.gender-container,
+.skills-container {
+  font-size: 18px;
+  margin-top: 18px;
+}
+.form-field-skills-label,
+.form-field-gender-label {
+  font-size: 22px;
+}
+.enrollment-form-container {
+  background: white;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 10px;
+  padding: 10px;
+  position: fixed;
+}
+.skills {
+  margin: 10px 0px;
+}
+.skill-item {
+  background: #1e1e1edd;
+  border-radius: 20px;
+  color: white;
+  font-size: 15px;
+  padding: 5px 15px;
+  margin: 1px 5px;
+}
